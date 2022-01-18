@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49CAD41E24E5A23C001B01B7 /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAD41D24E5A23C001B01B7 /* RoadView.swift */; };
+		49CAD42424E5A3EA001B01B7 /* LocationPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAD42324E5A3EA001B01B7 /* LocationPhoto.swift */; };
+		D320786924D4B5620017857E /* MapDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320786824D4B5620017857E /* MapDirectory.swift */; };
+		D34D9EB124E086070007876E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D9EB024E086070007876E /* DetailView.swift */; };
+		D34F897D24FD7159007DEECF /* LocationQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F897C24FD7159007DEECF /* LocationQuery.swift */; };
+		D34F897F24FD7368007DEECF /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F897E24FD7368007DEECF /* MapSearchView.swift */; };
+		D3500EE624D2007D002922AB /* InterestingPlacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3500EE524D2007D002922AB /* InterestingPlacesApp.swift */; };
+		D3500EE824D2007D002922AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3500EE724D2007D002922AB /* ContentView.swift */; };
+		D3500EEA24D2007E002922AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3500EE924D2007E002922AB /* Assets.xcassets */; };
+		D3500EED24D2007E002922AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3500EEC24D2007E002922AB /* Preview Assets.xcassets */; };
+		D3506E9124F80DAB00EA23B1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3506E9024F80DAB00EA23B1 /* TitleView.swift */; };
+		D3857DC624F94E480032F862 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3857DC524F94E470032F862 /* MapView.swift */; };
+		D3CE59DF24F95D180081DEB5 /* MapViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE59DE24F95D180081DEB5 /* MapViewUI.swift */; };
+		D3E10F7524D333EF008CE7C5 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E10F7424D333EF008CE7C5 /* places.json */; };
+		D3E10F7724D36559008CE7C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E10F7624D36559008CE7C5 /* Place.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49CAD41D24E5A23C001B01B7 /* RoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadView.swift; sourceTree = "<group>"; };
+		49CAD42324E5A3EA001B01B7 /* LocationPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPhoto.swift; sourceTree = "<group>"; };
+		D320786824D4B5620017857E /* MapDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDirectory.swift; sourceTree = "<group>"; };
+		D34D9EB024E086070007876E /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D34F897C24FD7159007DEECF /* LocationQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationQuery.swift; sourceTree = "<group>"; };
+		D34F897E24FD7368007DEECF /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		D3500EE224D2007D002922AB /* InterestingPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3500EE524D2007D002922AB /* InterestingPlacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlacesApp.swift; sourceTree = "<group>"; };
+		D3500EE724D2007D002922AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3500EE924D2007E002922AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3500EEC24D2007E002922AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3500EEE24D2007E002922AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3506E9024F80DAB00EA23B1 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		D3857DC524F94E470032F862 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D3CE59DE24F95D180081DEB5 /* MapViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUI.swift; sourceTree = "<group>"; };
+		D3E10F7424D333EF008CE7C5 /* places.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = places.json; path = "InterestingPlaces/Preview Content/places.json"; sourceTree = SOURCE_ROOT; };
+		D3E10F7624D36559008CE7C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3500EDF24D2007D002922AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3500ED924D2007D002922AB = {
+			isa = PBXGroup;
+			children = (
+				D3500EE424D2007D002922AB /* InterestingPlaces */,
+				D3500EE324D2007D002922AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3500EE324D2007D002922AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3500EE224D2007D002922AB /* InterestingPlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3500EE424D2007D002922AB /* InterestingPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3054B24DF043E00E2BA86 /* Views */,
+				D3E10F7324D33384008CE7C5 /* Model */,
+				D3500EE524D2007D002922AB /* InterestingPlacesApp.swift */,
+				D3500EE924D2007E002922AB /* Assets.xcassets */,
+				D3500EEE24D2007E002922AB /* Info.plist */,
+				D3500EEB24D2007E002922AB /* Preview Content */,
+			);
+			path = InterestingPlaces;
+			sourceTree = "<group>";
+		};
+		D3500EEB24D2007E002922AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3500EEC24D2007E002922AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3E10F7324D33384008CE7C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3E10F7424D333EF008CE7C5 /* places.json */,
+				D3E10F7624D36559008CE7C5 /* Place.swift */,
+				D320786824D4B5620017857E /* MapDirectory.swift */,
+				D34F897C24FD7159007DEECF /* LocationQuery.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3F3054B24DF043E00E2BA86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3500EE724D2007D002922AB /* ContentView.swift */,
+				49CAD42324E5A3EA001B01B7 /* LocationPhoto.swift */,
+				D34D9EB024E086070007876E /* DetailView.swift */,
+				49CAD41D24E5A23C001B01B7 /* RoadView.swift */,
+				D3506E9024F80DAB00EA23B1 /* TitleView.swift */,
+				D3857DC524F94E470032F862 /* MapView.swift */,
+				D3CE59DE24F95D180081DEB5 /* MapViewUI.swift */,
+				D34F897E24FD7368007DEECF /* MapSearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3500EE124D2007D002922AB /* InterestingPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3500EF124D2007E002922AB /* Build configuration list for PBXNativeTarget "InterestingPlaces" */;
+			buildPhases = (
+				D3500EDE24D2007D002922AB /* Sources */,
+				D3500EDF24D2007D002922AB /* Frameworks */,
+				D3500EE024D2007D002922AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterestingPlaces;
+			productName = InterestingPlaces;
+			productReference = D3500EE224D2007D002922AB /* InterestingPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3500EDA24D2007D002922AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D3500EE124D2007D002922AB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = D3500EDD24D2007D002922AB /* Build configuration list for PBXProject "InterestingPlaces" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3500ED924D2007D002922AB;
+			productRefGroup = D3500EE324D2007D002922AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3500EE124D2007D002922AB /* InterestingPlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3500EE024D2007D002922AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E10F7524D333EF008CE7C5 /* places.json in Resources */,
+				D3500EED24D2007E002922AB /* Preview Assets.xcassets in Resources */,
+				D3500EEA24D2007E002922AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3500EDE24D2007D002922AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320786924D4B5620017857E /* MapDirectory.swift in Sources */,
+				49CAD42424E5A3EA001B01B7 /* LocationPhoto.swift in Sources */,
+				D3E10F7724D36559008CE7C5 /* Place.swift in Sources */,
+				D34D9EB124E086070007876E /* DetailView.swift in Sources */,
+				49CAD41E24E5A23C001B01B7 /* RoadView.swift in Sources */,
+				D34F897F24FD7368007DEECF /* MapSearchView.swift in Sources */,
+				D34F897D24FD7159007DEECF /* LocationQuery.swift in Sources */,
+				D3500EE824D2007D002922AB /* ContentView.swift in Sources */,
+				D3500EE624D2007D002922AB /* InterestingPlacesApp.swift in Sources */,
+				D3857DC624F94E480032F862 /* MapView.swift in Sources */,
+				D3506E9124F80DAB00EA23B1 /* TitleView.swift in Sources */,
+				D3CE59DF24F95D180081DEB5 /* MapViewUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3500EEF24D2007E002922AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3500EF024D2007E002922AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3500EF224D2007E002922AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InterestingPlaces/Preview Content\"";
+				DEVELOPMENT_TEAM = KFCNEC27GU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InterestingPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.InterestingPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3500EF324D2007E002922AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InterestingPlaces/Preview Content\"";
+				DEVELOPMENT_TEAM = KFCNEC27GU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InterestingPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.InterestingPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3500EDD24D2007D002922AB /* Build configuration list for PBXProject "InterestingPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3500EEF24D2007E002922AB /* Debug */,
+				D3500EF024D2007E002922AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3500EF124D2007E002922AB /* Build configuration list for PBXNativeTarget "InterestingPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3500EF224D2007E002922AB /* Debug */,
+				D3500EF324D2007E002922AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3500EDA24D2007D002922AB /* Project object */;
+}
